@@ -14,10 +14,55 @@ header {
     background-size: cover;
     /*center the text*/
     text-align: center;
-    font-family: 'Roboto Slab', serif;
+    font-family: "Roboto Slab", serif;
 }
 header p {
     /*add the font style property here*/\
-      font-style: italic;
+      font-style:italic;
 }
-    
+ .services i {
+     height:80px;
+     width:80px;
+     color:white;
+     background:blue;
+     padding: 25px 20px;
+     font-size:30px;
+     border-radius:50%;
+     text-align: center; 
+ }  
+ .team h1 {
+     text-align: center;
+     
+ }
+ 
+.team img{
+    height:100px;
+    width:100px;
+    object-fit:cover;
+    border-radius:50%;
+}
+
+
+.contact{
+    margin:40px;
+}
+
+.contact h1{
+     text-align: center;
+     font-weight: bold;
+ }
+ 
+ .contact i {
+    padding: 10px;
+ }
+ 
+ .contact .input-group {
+     margin: 20px;
+ }
+ .comtact .btn {
+     width: 100%;
+     font-size: 20px;
+     border-radius: 0;
+     color: #fff;
+     background color: #f08080;
+ }
